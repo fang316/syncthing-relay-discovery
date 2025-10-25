@@ -47,3 +47,5 @@ jobs:
           tags: |
             makestore/syncthing-relay-discovery:latest
             makestore/syncthing-relay-discovery:${{ env.RELEASE_VERSION }}
+            ghcr.io/fang316/syncthing-relay-discovery:latest
+            ghcr.io/fang316/syncthing-relay-discovery:${{ env.RELEASE_VERSION }}
