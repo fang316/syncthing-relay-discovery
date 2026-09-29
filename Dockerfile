@@ -40,11 +40,11 @@ ENV REQUIREMENTS ca-certificates openssl supervisor
 ########################################
 #               Build                  #
 ########################################
-ARG RELAY_VERSION="v2.1.3"
-ARG DISCO_VERSION="v2.1.3"
-ARG RELAY_DOWNLOADURL="https://github.com/syncthing/relaysrv/releases/download/v2.1.3/strelaysrv-linux-amd64-v2.1.3.tar.gz"
-ARG DISCO_DOWNLOADURL="https://github.com/syncthing/discosrv/releases/download/v2.1.3/stdiscosrv-linux-amd64-v2.1.3.tar.gz"
-ARG BUILD_DATE="2026-08-05T21:06:21Z"
+ARG RELAY_VERSION="v2.1.5"
+ARG DISCO_VERSION="v2.1.5"
+ARG RELAY_DOWNLOADURL="https://github.com/syncthing/relaysrv/releases/download/v2.1.5/strelaysrv-linux-amd64-v2.1.5.tar.gz"
+ARG DISCO_DOWNLOADURL="https://github.com/syncthing/discosrv/releases/download/v2.1.5/stdiscosrv-linux-amd64-v2.1.5.tar.gz"
+ARG BUILD_DATE="2026-09-08T15:35:21Z"
 ########################################
 
 USER root
